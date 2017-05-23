@@ -25,7 +25,7 @@ There are seven tutorials available in the Tutorials chapter
  
 ### ChemDraw User Interface
 By default, the user interface displays toolbars, Samples button, Version,ChemDraw logo and API button. The user interface appears below:
-![user_interface](resource/user_interface.png)
+![user_interface](resource/user_interface.PNG)
 ChemDraw Professional windows user interface
 
 
