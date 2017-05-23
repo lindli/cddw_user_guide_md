@@ -33,7 +33,7 @@ The  toolbar includes the tools most commonly used for drawing structures. These
 
 #### secondary tools
 Some tools on the main toolbar have  secondary tools associated with them. These are indicated by a small black triangle in the lower right corner. For example:
-![secondary_tools](resource/secondary_tools)
+![secondary_tools](resource/secondary_tools.PNG)
 
 
 
