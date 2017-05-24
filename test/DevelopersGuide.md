@@ -16,18 +16,18 @@ Refer to the *PerkinElmer ChemDraw Direct 1.7.1 Installation Guide* for details 
 ### 1.1.1 Separated Libraries Embedded in Host Applications
 The JavaScript library can be included in any web-based applications. The host application developers have to make sure the scripts and resource files are deployed correctly with the host application. Each host application needs to maintain one copy of the library.  An upgrade on the JavaScript library may cause an upgrade of the entire host application.
 If the ChemDraw Web Service is needed, a separate web service has to be deployed in the network. The address of the web service has to be configured manually in the JavaScript library. The web service can be installed on the same server which has the host application running.
-<br/>![SeparatedLibraries](resources/ArchitectureSeparatedLibraries.png)
+<br/>![SeparatedLibraries](file:resources/ArchitectureSeparatedLibraries.png)
 
 ### 1.1.2	Single ChemDraw Direct Service
 The library and the RESTful web service can be deployed within a single service using the installer of the ChemDraw Direct Service. The service provides the capability of Cross Origin Resource Sharing (CORS) so that the libraries can be accessed from the applications that running in different domains.
 The address of the web service is automatically configured in the library by the installer, so that all the host applications can share the same configuration to provide ChemDraw functions to end users.
 The ChemDraw Direct Service needs to be maintained by the service professionals or administrators of the host applications. Ideally, an upgrade of ChemDraw Direct Service and host applications has no impact to each other.
 The service can be deployed in the same local network with the host applications.
-<br/>![OneService](resources/ArchitectureSingleService.png)
+<br/>![OneService](file:resources/ArchitectureSingleService.png)
 
 ## 1.2 ChemDraw Direct Sample Page
 A sample page of ChemDraw Direct is distributed with the release package or the installer.
-<br/>![SamplePage](resources/IntroductionSamplePage.png)
+<br/>![SamplePage](file:resources/IntroductionSamplePage.png)
 
 This page demonstrates how ChemDraw Direct can be embedded in a web based application and all functions of ChemDraw Direct.
 - The menus on the top call the ChemDraw Direct JavaScript APIs to create new ChemDraw tools and execute document or structure related commands.

@@ -46,7 +46,7 @@ public class HtmlToPdf {
         final HtmlRenderer RENDERER = HtmlRenderer.builder(OPTIONS).build();
         
         String line,html="";
-        InputStream fis = new FileInputStream("1.md");
+        InputStream fis = new FileInputStream("DevelopersGuide.md");
         InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
 		BufferedReader br = new BufferedReader(isr);
         while((line = br.readLine()) != null)
@@ -56,7 +56,7 @@ public class HtmlToPdf {
         }
         /*String AllHtml="<link rel=\"stylesheet\" href=\"file:///C:/Users/LiJe/Desktop/github-markdown.css\"><style>body{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}</style><body><article class=\"markdown-body\">"
               +html+"</article></body>";*/
-        PdfConverterExtension.exportToPdf("flexmark-java1.pdf", html,"", OPTIONS);
+        PdfConverterExtension.exportToPdf("flexmark-java.pdf", html,"", OPTIONS);
         System.out.println(html);
         //System.out.println(System.getProperty("user.dir"));
     }
