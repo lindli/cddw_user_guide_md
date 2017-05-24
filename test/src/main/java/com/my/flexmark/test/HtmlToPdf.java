@@ -54,8 +54,8 @@ public class HtmlToPdf {
         	Node document = PARSER.parse(line);
             html += RENDERER.render(document);
         }
-        String AllHtml="<link rel=\"stylesheet\" href=\"file:///C:/Users/LiJe/Desktop/github-markdown.css\"><style>body{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}</style><body><article class=\"markdown-body\">"
-              +html+"</article></body>";
+        /*String AllHtml="<link rel=\"stylesheet\" href=\"file:///C:/Users/LiJe/Desktop/github-markdown.css\"><style>body{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}</style><body><article class=\"markdown-body\">"
+              +html+"</article></body>";*/
         PdfConverterExtension.exportToPdf("flexmark-java1.pdf", html,"", OPTIONS);
         System.out.println(html);
         //System.out.println(System.getProperty("user.dir"));
