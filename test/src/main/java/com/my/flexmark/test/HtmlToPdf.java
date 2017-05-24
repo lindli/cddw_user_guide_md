@@ -45,19 +45,36 @@ public class HtmlToPdf {
         final Parser PARSER = Parser.builder(OPTIONS).build();
         final HtmlRenderer RENDERER = HtmlRenderer.builder(OPTIONS).build();
         
-        String line,html="";
-        InputStream fis = new FileInputStream("DevelopersGuide.md");
+        String line,CoverHtml,AllHtml="";
+        String BodyHtml="";
+        CoverHtml=readFile("cover.html");
+        
+        InputStream fis = new FileInputStream("1.md");
         InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
 		BufferedReader br = new BufferedReader(isr);
         while((line = br.readLine()) != null)
         {
         	Node document = PARSER.parse(line);
-            html += RENDERER.render(document);
+        	BodyHtml += RENDERER.render(document);
         }
+        AllHtml=CoverHtml+BodyHtml;
         /*String AllHtml="<link rel=\"stylesheet\" href=\"file:///C:/Users/LiJe/Desktop/github-markdown.css\"><style>body{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}</style><body><article class=\"markdown-body\">"
               +html+"</article></body>";*/
-        PdfConverterExtension.exportToPdf("flexmark-java.pdf", html,"", OPTIONS);
-        System.out.println(html);
+        PdfConverterExtension.exportToPdf("flexmark-java.pdf", AllHtml,"", OPTIONS);
+        br.close();
         //System.out.println(System.getProperty("user.dir"));
+    }
+
+    public static String readFile(String file) throws IOException{
+    	String line,Html = "";
+    	InputStream fis = new FileInputStream(file);
+        InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
+		BufferedReader br = new BufferedReader(isr);
+		while((line = br.readLine()) != null)
+        {
+        	Html += line;
+        }
+		br.close();
+		return Html; 
     }
 }
