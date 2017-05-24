@@ -31,10 +31,9 @@ ChemDraw Direct user interface
 ### Toolbars
 The  toolbar includes the tools most commonly used for drawing structures. These include all selection and bond tools.
 
-#### seconday tools
-Some tools on the main toolbar have  seconday tools associated with them. These are indicated by a small black triangle in the lower right corner. For example:
-![seconday_tools](resource/seconday_tools.PNG)
-
+#### secondary tools
+Some tools on the main toolbar have  secondary tools associated with them. These are indicated by a small black triangle in the lower right corner. For example:
+![secondary_tools](resource/secondary_tools.PNG)
 
 
 
