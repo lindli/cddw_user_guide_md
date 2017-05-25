@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<div id="main">
+  <div style="background-color:coral;width: 70px;
+    height: 70px;"></div>
+  <div style="background-color:lightblue;width: 70px;
+    height: 70px;"></div>
+  <div style="background-color:pink;width: 70px;
+    height: 70px;"></div>
+</div>
+
+<p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the align-content property.</p>
+
+<p><b>Note:</b> Safari 7.0 to 9.0 supports an alternative, the -webkit-align-content property.</p>
+
+</body>
+</html>
