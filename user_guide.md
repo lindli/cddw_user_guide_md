@@ -27,6 +27,7 @@ There are seven tutorials available in the Tutorials chapter
 The following is an example of a typical ChemDraw Direct user interface:
 
 > ***Note***: *The user interface and toolbar may vary depending on the configuration of your ChemDraw Direct application*
+
 ![user_interface](assets/user_interface.PNG)
 
 ChemDraw Direct user interface
@@ -39,6 +40,7 @@ The following drawing tools are available on the ChemDraw Direct toolbar.
 
 #### secondary tools
 Some tools on the main toolbar have  secondary tools associated with them. These are indicated by a small black triangle in the lower right corner.Double click on the icon to show the secondary tools For example:
+
 ![secondary_tools](assets/secondary_tools.PNG)
 
 ### API Button
@@ -112,7 +114,7 @@ Use atom keys to insert atoms in a drawing using your keyboard. For example, pla
 
 ### Bond Hotkeys
 To modify a bond, place your mouse over the bond and select a key listed below.
-| Function |Key |
+| Function | Key |
 | ------| ------ | 
 | Change to single bond | 1 | 
 | Change to dashed bond | d | 
@@ -282,7 +284,7 @@ There are two ways to draw a quadruple bond:
 
  - Draw a bond using the Quadruple Bond tool.
  - Using the Solid, Dashed, or Bold Bond tool, drag from one end of an existing triple bond to the other end.
- - Using any bond or selection tool, point to an existing bond and type '4' on your keyboard.
+ - Using any bond or selection tool, point to an existing bond and type ‘4’ on your keyboard.
 
 
 To change a quadruple bond into a single bond:
@@ -353,7 +355,7 @@ The double bond changes to the new bond type. One of the bonds in the double bon
 > **Note**: *If you click a tautomeric bond (solid/dashed) again with the dashed bond tool, you create an aromatic double bond (dashed/dashed).*
 
 ##### Aligning Double Bonds
-Double bonds can have one of three alignments relative to other bonds- above, below, and centered.
+Double bonds can have one of three alignments relative to other bonds— above, below, and centered.
 Above  ![double_bond_above](assets/double_bond_above.PNG)
 Below  ![double_bond_below](assets/double_bond_below.PNG)
 Centered  ![double_bond_centered](assets/double_bond_centered.PNG)
@@ -394,7 +396,7 @@ By default, ChemDraw draws structures with fixed bond lengths and bond angles. T
 
 ### Atoms
 By default, when you draw structures with the various bond, ring, or chain tools, simple hydrocarbons are created.
-You can add atom labels to the atoms using the Text tool. You can also use the Text tool to add textual captions to a document. For example, you can add the atom label "OH" to a drawing of toluene to create phenol:
+You can add atom labels to the atoms using the Text tool. You can also use the Text tool to add textual captions to a document. For example, you can add the atom label “OH” to a drawing of toluene to create phenol:
 
 ![atom_atom_phenol](assets/atom_phenol.PNG)
 
@@ -428,9 +430,9 @@ To delete an atom label, do one of the following:
 
 ### Captions
 You can add and edit captions to your structures using the Text tool. The following example adds the caption 'Phenol' to a phenol structure.
-To add the caption 'Phenol' to a phenol structure:
+To add the caption ‘Phenol’ to a phenol structure:
 1. Draw the phenol structure.
-2. Using the Text tool, click below the drawing and type "Phenol" in the text field.
+2. Using the Text tool, click below the drawing and type “Phenol” in the text field.
 3. Click outside the text field.
 To edit the caption, click in the text field with the Text tool and begin typing.
 ![atom_phenol_withname](assets/atom_phenol_withname.PNG)
@@ -448,7 +450,7 @@ To edit the width of a caption:
 Using hotkeys, you can add functional groups to your structures with one keystroke. For example, to add tert-butyl to the end of a hydrocarbon chain:
 1. Draw the chain.
 2. Hover the cursor where you want the functional group.
-3. Press <3> (the hotkey for tert-butyl) on the keyboard. 't-Bu' is added to the structure.
+3. Press <3> (the hotkey for tert-butyl) on the keyboard. ‘t-Bu’ is added to the structure.
 Using the hotkeys <n> (nitrogen), <o> (oxygen), and <i> (iodine), you can turn ethylbenzene into pyridin-2-yl hypoiodite.
 ![convert_ethylbenzene](assets/convert_ethylbenzene.PNG)
 You can also label several atoms at a time. For example, you can change neopentane (figure A below) into methanetetraamine
@@ -468,7 +470,7 @@ can later use as a quick way for adding the nickname to your drawing.
 
 #### Applying Nicknames
 To use a nickname to label an atom:
-In a structure, double-click an atom with a bond tool, or click an atom with the Text tool. An atom label text field appears. Type a nickname label, such as "Et".
+In a structure, double-click an atom with a bond tool, or click an atom with the Text tool. An atom label text field appears. Type a nickname label, such as “Et”.
 
 An example is shown below:
 ![with_Et_nickname](assets/with_Et_nickname.PNG)
@@ -589,7 +591,93 @@ For example, to draw a new arrow starting at the midpoint of an existing arrow:
 1. Select from the Arrows palette an arrow type for the new arrow.
 2. Place your cursor over the midpoint of the existing arrow and hold down the <shift> key. The adjustment handle
 changes to a small highlighted rectangle and the cursor changes to the '+' symbol.
-3. While pressing the < shift > key, draw the new arrow starting from the existing arrow's midpoint.
+3. While pressing the < shift > key, draw the new arrow starting from the existing arrow’s midpoint.
+
 ![connect_arrow_midpoint](assets/connect_arrow_midpoint.PNG)
+
 You can also drag existing arrows and connect them. Here are a few examples:
+
 ![arrow_connect_examples](assets/arrow_connect_examples.PNG)
+
+##### Equilibrium Arrows
+With equilibrium arrows, changing the length changes both arrows proportionately; changing the shape of the arrowhead changes both arrowheads identically.
+
+![equilibrium_arrow](assets/equilibrium_arrow.PNG)
+
+To change the length of one arrow, hold down the <Alt> key. Two new adjustment handles appear. When adjusting one arrow of an equilibrium arrow, the arrow cannot be extended beyond its original length.
+
+![changed_equilibrium_arrow](assets/changed_equilibrium_arrow.PNG)
+
+##### Curved Arrows
+You can curve most arrows found on the Arrows toolbar. After you paste an arrow in your drawing, click and drag the selection point in the middle of the arrow.
+As you drag the selection point, the angle of the arc appears, measured in degrees.
+
+<!-- delete Colored Arrows, Drawing Elements, Circles and Ovals -->
+
+#### Brackets
+Brackets includes braces { },brackets [ ],parentheses ( ) and dagger. Brackets are commonly used to illustrate polymers. For
+more information on polymers, see "Polymers" .
+
+##### Single brackets
+You can draw a single bracket in any orientation. Select a single bracket tool from the Brackets palette.
+
+![single_brackets](assets/single_brackets.PNG)
+
+1. Point where you want the bracket to start.
+2. Drag from one end of the bracket to the other end.
+
+##### Paired Brackets
+Paired brackets can be placed only in a vertical orientation. However, once you draw paired brackets, you can then select them and rotate to a horizontal position or any orientation desired. A rectangle or box defines their position.
+To draw paired brackets:
+1. Select a paired bracket tool from the Brackets palette.
+2. Point where you want a corner of the bracket.
+3. Drag diagonally from one corner of the box to the opposite corner.
+
+
+##### Daggers
+To draw a dagger:
+1. Select a dagger tool from the Brackets palette.
+2. Click in the drawing window.
+
+> **Note**: *To resize a dagger, select the dagger and click and drag one of its resize handles.*
+
+<!-- delete  Framing Obejects , Pen Tools, Editing Curves -->
+
+#### Selecting Objects
+Use the Lasso for freehand selections and the Marquee to select rectangular regions.
+
+![selecting_objects](assets/selecting_objects.PNG)
+
+When you select a structure or object, the selection displays with a colored frame around it. The frame includes
+handles for rotating, distorting, and resizing your selection.
+
+##### The Lasso Tool
+Use the Lasso tool to make a freehand selection of irregular areas.
+To select objects using the Lasso tool:
+
+1. Select the Lasso tool.
+2. Press the mouse button while the pointer is not over any object.
+3. Drag around part of a structure or other object.
+
+As you drag, a line appears that defines the selection area. Bonds, structures, or other objects are selected only if they are entirely within this area.
+
+##### The Marquee Tool
+Use the Marquee tool to select objects and structures within a rectangular area.
+
+1. Select the Marquee tool.
+2. Click and drag diagonally over the structures or other object.
+
+
+As you drag, a rectangle appears that defines the selection area. Non-molecular objects are selected only if their center or at least a major portion of the object is within the selection triangle.
+To set one selection tool to behave like the other, click either one of the tools while pressing < Alt > .
+To toggle a selection tool and the last drawing tool used, press < Control >+< Alt >+< Tab > .
+Selecting Entire Structures
+To select an entire chemical structure, double-click a bond or atom in the structure using a selection tool.
+If the chemical structure or other object is part of a group, the group is selected.
+Selecting Objects by Clicking
+1. Select the Lasso or Marquee tool.
+2. Point to an object in a document window.
+A highlight box appears over the pointed object.
+3. Click the object.
+The selected objects appear within the selection rectangle and the cursor changes to a hand.
+Note: You can also select the individual objects in a group. See "Grouping Objects"
