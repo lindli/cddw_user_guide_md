@@ -1,6 +1,6 @@
-#ChemDraw Direct 2.0 User Guide
+# ChemDraw Direct 2.0 User Guide  < ALT >
 ---
-##Recent Additions
+## Recent Additions
 
 ## 1 Introduction
 ChemDraw Direct is a chemical structure drawing and editing tool designed to help you create high-quality chemical drawings. ChemDraw Direct consists of a drawing toolbar and document window. The document window lets you draw and edit chemical structures using the various drawing tools available in the ChemDraw Direct toolbar. This section introduces the ChemDraw Direct user interface and main ChemDraw Direct toolbar.
@@ -80,7 +80,7 @@ Hotkeys are organized into atom labels, bond types, and functions (such as addin
 ### Atom Keys
 Use atom keys to insert atoms in a drawing using your keyboard. For example, place your mouse over an atom and press <3> to add a tert-butyl group.
 
-| Atom Label |Key |
+| Atom Label | Key |
 | ------| ------ | 
 | A | a | 
 | F | f | 
@@ -114,6 +114,7 @@ Use atom keys to insert atoms in a drawing using your keyboard. For example, pla
 
 ### Bond Hotkeys
 To modify a bond, place your mouse over the bond and select a key listed below.
+
 | Function | Key |
 | ------| ------ | 
 | Change to single bond | 1 | 
@@ -204,7 +205,8 @@ Below is a list of key combinations for common tasks.
 | Create resonance delocalized ring | CTRL+Click (with ring tools except chairs) | 
 
 ### Nicknames
-|    |    |   |    |    |    |   |  
+
+|    |    |   |    |    |    |
 | -- | -- | --| -- | -- | -- |
 | Ac | Bz | c-C7H13 | cyclopropyl |  DPIPS | i-C4H9 |
 | Ad | BOM | c-C8H15 | Cys | DPTBS | i-C5H11| 
